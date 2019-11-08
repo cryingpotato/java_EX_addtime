@@ -24,7 +24,7 @@ public class MyClass {
         int sec2=scanner.nextInt();
 
         int alltime1=(hu1*3600)+(min1*60)+sec1;
-        int alltime2=(hu2*3600)+(min2*600)+sec2;
+        int alltime2=(hu2*3600)+(min2*60)+sec2;
 
         System.out.println("Ans:"+Math.abs(alltime1-alltime2));   //取絕對值
     }
